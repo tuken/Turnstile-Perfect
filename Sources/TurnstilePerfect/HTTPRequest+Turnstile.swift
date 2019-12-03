@@ -11,7 +11,7 @@ import Turnstile
 import Foundation
 
 public extension HTTPRequest {
-    internal(set) public var user: Subject {
+    internal(set) var user: Subject {
         get {
             return scratchPad["TurnstileSubject"] as! Subject
         }
