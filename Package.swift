@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "TurnstilePerfect", targets: ["TurnstilePerfect"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/PerfectlySoft/Perfect-HTTP.git", from: "3.0.12"),
+        .package(url: "https://github.com/PerfectlySoft/Perfect-HTTP.git", from: "3.0.0"),
         .package(url: "https://github.com/123FLO321/Turnstile.git", from: "2.0.0"),
     ],
     targets: [
